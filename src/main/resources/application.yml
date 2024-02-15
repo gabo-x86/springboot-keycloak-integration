@@ -1,0 +1,20 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: spring-integration-demo
+  security:
+    oauth2:
+      resource-server:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/spring-keycloak-integration-demo
+          jwk-set-uri: http://localhost:8080/realms/spring-keycloak-integration-demo/protocol/openid-connect/certs
+jwt:
+  auth:
+    converter:
+      principle-attribute: preferred_username
+      resource-id: springboot-keycloak-demo-client
+logging:
+  level:
+    org:
+      keycloak: DEBUG
