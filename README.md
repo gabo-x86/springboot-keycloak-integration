@@ -2,7 +2,7 @@
 ## Summary
 This repository contains the backend of an application developed with Spring Boot and integrated with Keycloak.
 
-The project needs java 21 to be run and it works on port 8081 by default.
+The project needs java 21 to be run and it works on port 8082 by default.
 
 The application provides the following endpoints to Create, Read, Update, and Delete users using Keycloak as a service that perform the actions:
 

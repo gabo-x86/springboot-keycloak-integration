@@ -7,7 +7,7 @@ import org.keycloak.admin.client.resource.RealmResource;
 import org.keycloak.admin.client.resource.UsersResource;
 
 public class KeycloakProvider {
-    private static final String SERVER_URL = "http://localhost:8080";//keycloak server address
+    private static final String SERVER_URL = "http://localhost:8081";//keycloak server address
     private static final String REALM_NAME = "spring-keycloak-integration-demo";
     private static final String REALM_MASTER = "master";
     private static final String ADMIN_CLI = "admin-cli";
